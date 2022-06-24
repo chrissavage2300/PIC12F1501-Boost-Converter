@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -4291,7 +4291,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </class>
 </classes>
 <parts>
-<part name="IC1" library="microchip_pic12f" deviceset="PIC12F510" device="/SN"/>
+<part name="IC1" library="microchip_pic12f" deviceset="PIC12F510" device="/SN" value="PIC12F1501"/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT5088" value="FMMT491ATA"/>
 <part name="Q2" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_PNP" device="MMBT4403" value="FMMT591A"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="2k"/>
@@ -4339,6 +4339,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 
 Solder This Jumper for current mode. 
 Do not populate R5,R6 or R8 if jumper is made.</text>
+<text x="111.76" y="58.42" size="1.778" layer="97">6/24/2022
+Updated PIC to correct part number</text>
 </plain>
 <instances>
 <instance part="IC1" gate="U" x="121.92" y="76.2" smashed="yes">
